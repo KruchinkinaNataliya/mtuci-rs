@@ -17,4 +17,9 @@ path = "src/shadowing.rs"
 name = "data_types"
 path = "src/data_types.rs"
 
+[[bin]]
+name = "functions"
+path = "src/functions.rs"
+
+
 [dependencies]
