@@ -1,5 +1,5 @@
 // fn main() {
-//     for i in 1..=100{
+//     for i in 1..=100 {
 //         if i%15 == 0 {
 //             println!("FizzBuzz"); }
 //         else {
@@ -17,7 +17,7 @@
 
 fn main() {
     for i in 1..=100 {
-        match (i%5 == 0, i%3 ==0) {
+        match (i%5 == 0, i%3 == 0) {
             (false, true) =>
                 println!("Fizz"),
             (true, false) =>
