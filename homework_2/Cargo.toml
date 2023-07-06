@@ -13,4 +13,5 @@ path = "src/task1.rs"
 name = "task2"
 path = "src/task2.rs"
 
+
 [dependencies]
