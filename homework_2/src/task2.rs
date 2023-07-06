@@ -17,7 +17,7 @@ struct Rect {
 
 impl Rect {
     fn new(top_left: (f32, f32), width: f32) -> Self {
-        // todo!()
+        todo!()
     }
 
     fn bottom_right(&self) -> (f32, f32) {
