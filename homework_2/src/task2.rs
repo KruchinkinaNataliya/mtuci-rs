@@ -64,6 +64,6 @@ mod tests {
     fn perimeter() {
         let rect = Rect::new((1., 2.), 5.);
 
-        assert_eq!(20., rect.perimeter())
+        assert_eq!(20., rect.perimeter()
     }
 }
