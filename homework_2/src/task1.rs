@@ -13,7 +13,7 @@ It is the same with books. What do we seek through millions of pages?";
 
 
 fn main() {
-    find_term(SEARCH_TERM, QUOTE);
+    fnd_term(SEARCH_TERM, QUOTE);
 }
 
 fn find_term(search_term: &str, quote: &str) -> String {

@@ -11,7 +11,7 @@
 
 fn main() {}
 
-struct Rect {
+struct Rect
     // TODO
 }
 
