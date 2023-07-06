@@ -17,7 +17,7 @@ fn main() {
 }
 
 fn find_term(search_term: &str, quote: &str) -> String {
-    let mut result = String::new();
+    let result = String::new();
     let mut line_number= 0;
 
     for line in quote.lines() {
