@@ -17,15 +17,15 @@ fn main() {
 }
 
 fn find_term(search_term: &str, quote: &str) -> String {
-    let mut result = String::new();
-    let mut line_number: = 0;
+    let result = String::new();
+    let mut line_number= 0;
 
     for line in quote.lines() {
         line_number += 1;
         let words: Vec<&str> = line.split_whitespace().collect();
         for word in words {
             if word == search_term {
-                return format!("{}: {}", line_number, line));
+                return format!("{}: {}", line_number, line);
             }
         }
     }
