@@ -1,0 +1,38 @@
+[package]
+name = "tokio"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "hello-redis"
+path = "examples/hello-redis.rs"
+
+[[bin]]
+name = "asynchronous_mutex"
+path = "src/asynchronous_mutex.rs"
+
+[[bin]]
+name = "hashmap"
+path = "src/hashmap.rs"
+
+[[bin]]
+name = "MutexGuard"
+path = "src/MutexGuard.rs"
+
+[[bin]]
+name = "update_process"
+path = "src/update_process.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+mini-redis = "0.4"
+bytes = "1"
+futures = "0.3"
+crossbeam = "0.8"
+tokio-stream = "0.1"
